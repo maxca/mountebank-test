@@ -1,0 +1,15 @@
+{
+  "name": "mountebank-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "mb --configfile imposter.ejs --loglevel debug --allowInjection flag",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "samark.chaisanguan",
+  "license": "ISC",
+  "dependencies": {
+    "mountebank": "^2.5.0"
+  }
+}
